@@ -499,6 +499,12 @@ span {
   text-align: center;
 }
 
+#author {
+  color: #fdd403;
+  text-decoration: none;
+}
+
+
 /*----HOVER----*/
 
 nav ul li a:hover {
