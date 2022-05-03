@@ -1,0 +1,737 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 50px;
+  box-sizing: border-box;
+  background: #0d1c46;
+
+  z-index: 10;
+}
+
+.nav-logo {
+  font-size: 25px;
+  margin-left: 5px;
+  padding: 5px 5px 5px 15px;
+  float: left;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  display: flex;
+}
+
+nav ul li a {
+  line-height: 50px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: thin;
+  padding: 10px 10px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  transition: 0.8s;
+}
+
+.intro-bg {
+  top: 30px;
+  background-image: linear-gradient(
+      rgba(29, 66, 187, 0.733),
+      rgba(4, 30, 9, 0.7)
+    ),
+    url(../img/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 50vh;
+}
+
+.intro {
+  margin: 0px;
+}
+
+.section-title {
+  font-size: 30px;
+
+  color: white;
+  padding: 40px 0px 5px 30px;
+}
+
+.section-content {
+  margin-right: 150px;
+  padding: 0px 0px 5px 30px;
+  line-height: 150%;
+  font-size: 18px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  word-break: break-word;
+}
+
+/*----button----*/
+
+.btn {
+  font-size: 14px;
+  border-radius: 40px;
+  padding: 10px 10px 10px 10px;
+  margin-left: 40px;
+  font-family: "Poppins", sans-serif;
+  background: none;
+  color: white;
+  transition: 0.8s;
+}
+
+#obj {
+  position: relative;
+  min-height: 370px;
+  margin-top: -20px;
+  font-size: 12px;
+  padding: 12px 40px 15px 40px;
+  text-align: center;
+  border-bottom: #0d1c46 solid 1px;
+  background: white;
+  color: #0d1c46;
+}
+span {
+  font-size: 30px;
+  padding: 54px 0px;
+  height: 8rem;
+  min-width: 100%;
+  justify-content: center;
+  background-color: #0d1c46;
+  color: #fdd403;
+  position: absolute;
+  left: 0;
+  top: 164px;
+  text-transform: uppercase;
+}
+
+/* study materials*/
+
+#res {
+  padding-top: 1em;
+  min-width: 100px;
+  height: auto;
+  text-align: center;
+  line-height: 60px;
+  font-size: 28px;
+  color: #0d1c46;
+}
+.stdy {
+  padding: 20px 20px;
+}
+
+/*----civil----*/
+#cvl {
+  position: relative;
+  margin: 20px 0px;
+  min-height: 200px;
+  width: 100%;
+  border-radius: 20px;
+  background-image: linear-gradient(
+      rgba(249, 250, 252, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.9999)
+    ),
+    url(../img/cvlimg.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+#btn1 {
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  margin: 0;
+  top: 0;
+  left: 0;
+  border: none;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+}
+
+#cvlsc {
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  line-height: 1;
+  min-width: 220px;
+  left: 0px;
+  top: 160px;
+  padding: 0px 1px 0px 10px;
+  color: #fff;
+  font-size: 18px;
+}
+/*----mechanics----*/
+#mcs {
+  position: relative;
+  margin: 20px 0px;
+  min-height: 200px;
+  width: 100%;
+  border-radius: 20px;
+  background-image: linear-gradient(
+      rgba(249, 250, 252, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.9999)
+    ),
+    url(../img/mcsimg.jpg);
+  background-size: cover;
+}
+
+#btn2 {
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  margin: 0;
+  top: 0;
+  left: 0;
+  border: none;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+}
+
+#mcssc {
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  line-height: 1;
+  min-width: 220px;
+  left: 0px;
+  top: 160px;
+  padding: 0px 1px 0px 10px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/*----graphics----*/
+
+#gps {
+  position: relative;
+  margin: 20px 0px;
+  min-height: 200px;
+  width: 100%;
+  border-radius: 20px;
+  background-image: linear-gradient(
+      rgba(249, 250, 252, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.9999)
+    ),
+    url(../img/gpsimg.jpg);
+  background-size: cover;
+}
+
+#btn3 {
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  margin: 0;
+  top: 0;
+  left: 0;
+  border: none;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+}
+
+#gpssc {
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  line-height: 1;
+  min-width: 220px;
+  left: 0px;
+  top: 160px;
+  padding: 0px 1px 0px 10px;
+  color: #fff;
+  font-size: 18px;
+}
+/*----electrical----*/
+#ele {
+  position: relative;
+  margin: 20px 0px;
+  min-height: 200px;
+  width: 100%;
+  border-radius: 20px;
+  background-image: linear-gradient(
+      rgba(249, 250, 252, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.9999)
+    ),
+    url(../img/elelimg.jpg);
+  background-size: cover;
+}
+
+#btn4 {
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  margin: 0;
+  top: 0;
+  left: 0;
+  border: none;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+}
+
+#elesc {
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  line-height: 1;
+  min-width: 220px;
+  left: 0px;
+  top: 160px;
+  padding: 0px 1px 0px 10px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/*----c programming----*/
+
+#cpp {
+  position: relative;
+  margin: 20px 0px;
+  min-height: 200px;
+  width: 100%;
+  border-radius: 20px;
+  background-image: linear-gradient(
+      rgba(249, 250, 252, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.9999)
+    ),
+    url(../img/cppimg.jpg);
+  background-size: cover;
+}
+#btn5 {
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  margin: 0;
+  top: 0;
+  left: 0;
+  border: none;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+}
+#cppsc {
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  line-height: 1;
+  min-width: 220px;
+  left: 0px;
+  top: 160px;
+  padding: 0px 1px 0px 10px;
+  color: #fff;
+  font-size: 18px;
+}
+/*----chemistry----*/
+#chem {
+  position: relative;
+  margin: 20px 0px;
+  min-height: 200px;
+  width: 100%;
+  border-radius: 20px;
+  background-image: linear-gradient(
+      rgba(249, 250, 252, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.9999)
+    ),
+    url(../img/chemimg.jpg);
+  background-size: cover;
+}
+
+#btn6 {
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  margin: 0;
+  top: 0;
+  left: 0;
+  border: none;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+}
+#chemsc {
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  line-height: 1;
+  min-width: 220px;
+  left: 0px;
+  top: 160px;
+  padding: 0px 1px 0px 10px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/*----physics----*/
+#phy {
+  position: relative;
+  margin: 20px 0px;
+  min-height: 200px;
+  width: 100%;
+  border-radius: 20px;
+  background-image: linear-gradient(
+      rgba(249, 250, 252, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.9999)
+    ),
+    url(../img/phyimg.jpg);
+  background-size: cover;
+}
+
+#btn7 {
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  margin: 0;
+  top: 0;
+  left: 0;
+  border: none;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+}
+
+#physc {
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  line-height: 1;
+  min-width: 220px;
+  left: 0px;
+  top: 160px;
+  padding: 0px 1px 0px 10px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/*----mathematics----*/
+#mat {
+  position: relative;
+  margin: 20px 0px;
+  min-height: 200px;
+  width: 100%;
+  border-radius: 20px;
+  background-image: linear-gradient(
+      rgba(249, 250, 252, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.9999)
+    ),
+    url(../img/matimg.jpg);
+  background-size: cover;
+}
+
+#btn8 {
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  margin: 0;
+  top: 0;
+  left: 0;
+  border: none;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+}
+#matsc {
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  line-height: 1;
+  min-width: 220px;
+  left: 0px;
+  top: 160px;
+  padding: 0px 1px 0px 10px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/*----foooter----*/
+
+.footer-social {
+  padding: 4%;
+  height: 10%;
+  width: 90%;
+  line-height: 0;
+  position: relative;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  background-color: #0d1c46;
+}
+
+.footer-social ul {
+  list-style: none;
+  padding: 12%;
+  display: flex;
+  padding: 8% 8%;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-social ul li {
+  margin: 0 10px;
+  padding: 1%;
+  font-size: 32px;
+}
+.footer-social ul li a {
+  color: #fdd403;
+  padding: 3%;
+  text-align: center;
+}
+
+/*----HOVER----*/
+
+nav ul li a:hover {
+  border-radius: 6px;
+  background: #fff;
+  color: #0d1c46;
+}
+
+.btn:hover {
+  background-color: #fcfcfc8f;
+  color: #0d1c46;
+}
+
+/*----responsive----*/
+
+@media screen and (min-width: 1200px) {
+  .intro-bg {
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(29, 66, 187, 0.3),
+        rgba(4, 30, 9, 0.3)
+      ),
+      url(../img/bg.jpg);
+  }
+  .section-title {
+    font-size: 60px;
+    color: white;
+    padding: 16% 0px 5px 4%;
+  }
+  .section-content {
+    margin-right: 150px;
+    padding: 0px 0px 5px 4%;
+    line-height: 130%;
+    font-size: 28px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    word-break: break-word;
+  }
+
+  .btn {
+    font-size: 24px;
+    border-radius: 40px;
+    padding: 1% 2%;
+    margin-left: 8%;
+    margin-top: 2%;
+  }
+
+  nav {
+    height: 10%;
+  }
+
+  .nav-logo {
+    font-size: 45px;
+  }
+
+  nav ul li a {
+    line-height: 40px;
+    display: flex;
+    padding: 1px 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  #obj {
+    min-height: 45rem;
+    font-size: 38px;
+    padding: 40px 40px 20px 40px;
+  }
+  span {
+    font-size: 80px;
+    padding: 3% 3% 3% 3%;
+    height: 40%;
+    line-height: 20rem;
+    min-width: 94%;
+    top: 380px;
+  }
+  #res {
+    padding-top: 2em;
+
+    font-size: 48px;
+  }
+  .stdy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+    text-align: left;
+    padding: 70px 20px;
+    margin: 0 auto;
+    line-height: 120px;
+    font-size: 50px;
+    color: #0d1c46;
+  }
+  #cvl {
+    position: relative;
+    margin: 20px;
+    min-height: 300px;
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/cvlimg.jpg);
+  }
+
+  #mcs {
+    position: relative;
+    margin: 20px;
+    min-height: 300px;
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/mcsimg.jpg);
+  }
+  #gps {
+    position: relative;
+    margin: 20px;
+    min-height: 300px;
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/gpsimg.jpg);
+  }
+  #ele {
+    position: relative;
+    margin: 20px;
+    min-height: 300px;
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/elelimg.jpg);
+  }
+  #cpp {
+    position: relative;
+    margin: 20px;
+    min-height: 300px;
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/cppimg.jpg);
+  }
+
+  #chem {
+    position: relative;
+    margin: 20px;
+    min-height: 300px;
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/chemimg.jpg);
+  }
+
+  #phy {
+    position: relative;
+    margin: 20px;
+    min-height: 300px;
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/phyimg.jpg);
+  }
+
+  #mat {
+    position: relative;
+    margin: 20px;
+    min-height: 300px;
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/matimg.jpg);
+  }
+  .footer-social {
+    height: auto;
+    width: 100%;
+    padding: 0;
+
+    line-height: 2em;
+    font-size: 22px;
+  }
+
+  .footer-social ul {
+    padding: 2em;
+    margin: 0 auto;
+  }
+
+  .footer-social ul li {
+    margin: 10px;
+    padding: 0 1em;
+    font-size: 45px;
+  }
+  .footer-social ul li a {
+    color: #fdd403;
+    padding: 5px;
+    text-align: center;
+  }
+}
